@@ -13,9 +13,9 @@ This repository demonstrates high-efficiency Post-Training Quantization (PTQ) an
 
 | Model Variant | Model Size (KB) | Compression Ratio | Accuracy (%) | Target Deployment |
 | :--- | :---: | :---: | :---: | :--- |
-| **Baseline FP32 Model** | *Original* | 1.0x (Baseline) | **98.93%** | High-performance PC / Server |
-| **INT8 PTQ Model** | *Compressed* | **11.4x smaller** | **98.7%** | Standard Edge Devices |
-| **INT8 QAT Model** | *Compressed* | **11.5x smaller** | **98.9%** | Low-power Microcontrollers (ESP32) |
+| **Baseline FP32 Model** | *1467.1 KB* | 1.0x (Baseline) | **98.93%** | High-performance PC / Server |
+| **INT8 PTQ Model** | *128.3 KB* | **11.4x smaller** | **98.7%** | Standard Edge Devices |
+| **INT8 QAT Model** | *126.8 KB* | **11.5x smaller** | **98.9%** | Low-power Microcontrollers (ESP32) |
 
 ---
 
